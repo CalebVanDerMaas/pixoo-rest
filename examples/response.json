@@ -1,0 +1,155 @@
+{
+    "object": "list",
+    "results": [
+     {
+      "object": "page",
+      "id": "6cf5206b-644d-4878-87c0-5f21a8670f93",
+      "created_time": "2023-03-06T17:58:00.000Z",
+      "last_edited_time": "2023-03-07T14:32:00.000Z",
+      "created_by": {
+       "object": "user",
+       "id": "94e0b1cc-0078-4604-8965-30ce96eb5538"
+      },
+      "last_edited_by": {
+       "object": "user",
+       "id": "94e0b1cc-0078-4604-8965-30ce96eb5538"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+       "type": "database_id",
+       "database_id": "34f777ba-0c92-42a6-a3f7-9d6046afc511"
+      },
+      "archived": false,
+      "properties": {
+       "Favorite": {
+        "id": "%3Cq%5BW",
+        "type": "checkbox",
+        "checkbox": false
+       },
+       "Recurring Interval": {
+        "id": "B%40%5B%7D",
+        "type": "number",
+        "number": null
+       },
+       "RECENT": {
+        "id": "B%7Ces",
+        "type": "formula",
+        "formula": {
+         "type": "string",
+         "string": "TRUE"
+        }
+       },
+       "Created time": {
+        "id": "M~%3AD",
+        "type": "created_time",
+        "created_time": "2023-03-06T17:58:00.000Z"
+       },
+       "Due": {
+        "id": "Sf%5Dw",
+        "type": "date",
+        "date": {
+         "start": "2023-03-29",
+         "end": null,
+         "time_zone": null
+        }
+       },
+       "State": {
+        "id": "VcMC",
+        "type": "formula",
+        "formula": {
+         "type": "string",
+         "string": "🟢"
+        }
+       },
+       "Quick Capture": {
+        "id": "YaR%7C",
+        "type": "formula",
+        "formula": {
+         "type": "string",
+         "string": "TRUE"
+        }
+       },
+       "Area": {
+        "id": "ZhHM",
+        "type": "rollup",
+        "rollup": {
+         "type": "array",
+         "array": [],
+         "function": "show_original"
+        }
+       },
+       "Recurring": {
+        "id": "aj%5Cy",
+        "type": "checkbox",
+        "checkbox": false
+       },
+       "Next Due ": {
+        "id": "bh%5Cq",
+        "type": "formula",
+        "formula": {
+         "type": "date",
+         "date": {
+          "start": "2023-03-29",
+          "end": null,
+          "time_zone": null
+         }
+        }
+       },
+       "Projects": {
+        "id": "fCB%7D",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+       },
+       "UPCOMING": {
+        "id": "tFiO",
+        "type": "formula",
+        "formula": {
+         "type": "string",
+         "string": "YES"
+        }
+       },
+       "Recurring Unit": {
+        "id": "wmKp",
+        "type": "select",
+        "select": null
+       },
+       "Priority": {
+        "id": "x%5Dp%5B",
+        "type": "select",
+        "select": null
+       },
+       "Done": {
+        "id": "%7D%3D%3Bs",
+        "type": "checkbox",
+        "checkbox": false
+       },
+       "Task": {
+        "id": "title",
+        "type": "title",
+        "title": [
+         {
+          "type": "text",
+          "text": {
+           "content": "All staff meeting 11:30-1pm every last Wednesday",
+           "link": null
+          },
+          "annotations": {
+           "bold": false,
+           "italic": false,
+           "strikethrough": false,
+           "underline": false,
+           "code": false,
+           "color": "default"
+          },
+          "plain_text": "All staff meeting 11:30-1pm every last Wednesday",
+          "href": null
+         }
+        ]
+       }
+      },
+      "url": "<https://www.notion.so/All-staff-meeting-11-30-1pm-every-last-Wednesday-6cf5206b644d487887c05f21a8670f93>"
+     }
+    ]
+   }
